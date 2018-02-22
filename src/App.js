@@ -1,8 +1,12 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, {component} from 'react';
 import './style.css';
+import Routes from './pages';
 
-class App extends Component {
+export default () => <Routes />;
+
+
+
+/*class App extends Component {
   render() {
     return (
       <div className="App">
@@ -19,3 +23,4 @@ class App extends Component {
 }
 
 export default App;
+*/
