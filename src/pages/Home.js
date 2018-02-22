@@ -35,7 +35,7 @@ export class Home extends React.Component {
          </p>
        </div>
        <Footer />
-    </div>      
+    </div>
     );
   }
 }

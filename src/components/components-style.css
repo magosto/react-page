@@ -59,7 +59,7 @@ a:visited {
 
 /* App Body formatting */
 .App-body {
- padding: 50px;
+ padding: 12px 50px 50px 50px;
 }
 /* End App Body formatting */
 
@@ -71,8 +71,9 @@ a:visited {
   height: 150px;
   padding: 20px;
   color: white;
-  bottom: 0px;
   width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 .App-footer button {
